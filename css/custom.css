@@ -1,0 +1,126 @@
+h5 {
+    color: #0fa0ce;
+}
+
+.job {
+    font-weight: bold;
+    margin: 0;
+}
+
+img{
+    height:200px;
+    float:right;
+}
+
+
+.subtitle{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+}
+
+
+.description {
+    margin: 0;
+}
+
+ul,
+li {
+    margin: 0;
+}
+
+.where {
+    font-style: italic;
+    color: #1eaedb;
+    margin: 0;
+}
+
+.when {
+    font-style: italic;
+    color: gray;
+    margin: 0;
+}
+
+.button {
+    margin-right: 1em;
+}
+
+@media (min-width: 750px) {
+    .where {
+        font-style: italic;
+        text-align: right;
+        color: #1eaedb;
+        margin: 0;
+    }
+
+    .when {
+        font-style: italic;
+        text-align: right;
+        color: gray;
+        margin: 0;
+    }
+}
+
+.row {
+    margin-bottom: 1em;
+}
+
+@media (min-width: 750px) {
+    .row {
+        margin-bottom: 0;
+    }
+    .multilined {
+        margin-bottom: 1em;
+    }
+}
+
+.name {
+    font-weight: bold;
+}
+
+.tag {
+    padding: 0.2rem 0.5rem;
+    margin: 0 0.2rem;
+    font-size: 90%;
+    white-space: nowrap;
+
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    cursor: pointer;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.tag-selected {
+    background: #f1f1f1;
+}
+
+.tag-button {
+    background-color: #33c3f0;
+    border-color: #33c3f0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.nomargin{
+    margin-bottom:0;
+}
+
+
+
+.bigmargin{
+    margin-bottom:80px;
+}
+
+.smallwhere{
+    font-size: 1.2rem;
+}
+
+.placeholder{
+    color:white;
+    background-color: red;
+}
