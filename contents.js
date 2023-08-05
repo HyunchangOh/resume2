@@ -810,7 +810,7 @@ let contents = [
         ],
     },
 ];
-let lastUpdateTime = ["Last Updated: Mar 05, 2023", "2023년 3월 5일에 마지막으로 수정되었습니다.", "Letzte Aktualisierung: 05.03.2023"];
+let lastUpdateTime = ["Last Updated: Aug 05, 2023", "2023년 8월 5일에 마지막으로 수정되었습니다.", "Letzte Aktualisierung: 05.08.2023"];
 
 // 0: korean
 // 1: english
