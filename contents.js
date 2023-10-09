@@ -132,7 +132,7 @@ let contents = [
                 link: "https://www.dsc.edu.hk/",
                 description: ["Ontario Curriculum", "온타리오 주 교육과정", "Lehrplan von Ontario"],
                 items: [["Intermediate Section Graduation Ceremony: Art Award", "중등부 졸업표창: 인문학분야최우등", "Der Kunstpreisgewinner"]],
-                where: ["Hong Kong", "홍콩"],
+                where: ["Hong Kong", "홍콩", "Hong Kong"],
                 when: ["Feb. 2011 - Feb. 2013", "2011년 2월 - 2013년 2월", "Feb. 2011 - Feb. 2013"],
                 tag: ["international"],
             },
