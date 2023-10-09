@@ -25,7 +25,7 @@ let tag_selected = Object.keys(tag_translation_sheet);
 
 let contents = [
     {
-        title: ["Education", "학력", "Ausbildung"],
+        title: ["Education", "학력", "Studium"],
         type: "multilined",
         items: [
             {
@@ -35,7 +35,7 @@ let contents = [
                 items: [
                 ],
                 where: ["Berlin, Germany", "독일 베를린", "Berlin, Deutschland"],
-                when: ["Oct. 2023 - Now", "2023년 10월 - 현재", "Oct. 2023 - Jetzt"],
+                when: ["Oct. 2023 - Aug. 2025", "2023년 10월 - 현재", "Oct. 2023 - Aug. 2025"],
                 tag: ["biology","computer_science"],
             },
             {
@@ -63,7 +63,7 @@ let contents = [
         ],
     },
     {
-        title: ["Non Degree-Awarding Education", "비학위과정 학력", "Nicht-Abschlussvergabe Ausbildung"],
+        title: ["Non Degree-Awarding Education", "비학위과정 학력", "Nicht-Abschlussvergebende Ausbildung"],
         type: "multilined",
         items: [
             {
