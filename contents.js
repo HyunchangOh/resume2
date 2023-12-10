@@ -144,11 +144,11 @@ let contents = [
         items: [
             {
                 job: ["Free University of Berlin", "베를린자유대학교","Freie Universität Berlin"],
-                link: "https://www.ringleplus.com/ko/student/landing/home",
+                link: "https://www.mi.fu-berlin.de/en/inf/groups/ag-KIML/Projects/ENKIS/index.html",
                 description: ["Artificial Intelligence and Machine Learning Group", "인공지능 및 머신러닝 연구단", "Artificial Intelligence and Machine Learning Group"],
                 items: [["ENKIS Student Intern: Establishment of sustainable AI-related study programs for responsible artificial intelligence","단어 학습 모듈 개발 및 서버 구현","ENKIS Studentmitarbeiter: Etablierung nachhaltiger KI-bezogener Studienangebote für eine verantwortungsvolle Künstliche Intelligenz an der Freien Universität Berlin"]],
                 where: ["Berlin, Germany", "독일 베를린", "Berlin, Deutschland"],
-                when: ["Jan. 2023 - Dec. 2024", "2021년 1월 - 2021년 2월", "Jan. 2021 - Feb. 2021"],
+                when: ["Jan. 2023 - Dec. 2024", "2023년 1월 - 2024년 12월", "Jan. 2023 - Dec. 2024"],
                 tag: ["computer_science"],
             },
             {
@@ -499,6 +499,19 @@ let contents = [
                 tag: ["writing","leadership","computer_science"],
             },
             {
+                job: ["Dept. of Chemistry and Biology, Korea Science Academy", "한국과학영재학교 화학생물학부", "Dept. of Chemistry and Biology, Korea Science Academy"],
+                link: "https://chembio.ksa.hs.kr/",
+                description: [
+                    "Invited Lecturer: Career and Research Mentoring for High School Students", 
+                    "초청강사: 고등학생을 위한 진로 및 연구 멘토링",
+                    "Eingeladenes Dozent: Karriere- und Forschungsmentoring für Oberstufenschüler"
+                ],
+                items: [],
+                where: ["Online", "온라인", "Online"],
+                when: ["Nov, 2023", "2023년 11월", "Nov, 2023"],
+                tag: ["leadership"],
+            },
+            {
                 job: ["KAIST Global Strategy Institute 3rd Forum", "카이스트 글로벌전략센터 3회 포럼", "KAIST Global Strategy Institute 3. Forum"],
                 link: "https://www.youtube.com/watch?v=fbj7YVgvKPI&t=10920s",
                 description: [
@@ -747,11 +760,21 @@ let contents = [
                 description: ["ReactJS, Flask, AndroidStudio", "ReactJS, Flask, AndroidStudio","ReactJS, Flask, AndroidStudio",],
                 tag: ["computer_science"],
             },
+            // {
+            //     category: ["Bioinformatics", "생물정보학", "Bioinformatik"],
+            //     description: ["OMIM, Phenomizer, SpliceAI, JalView, UniProt, ClustalW,MutationTaster, ClinVar, GnomAD", "OMIM, Phenomizer, SpliceAI, JalView, UniProt, ClustalW, Pymol, MutationTaster, ClinVar, GnomAD","OMIM, Phenomizer, SpliceAI, JalView, UniProt, ClustalW, Pymol, MutationTaster, ClinVar, GnomAD",],
+            //     tag: ["computer_science"],
+            // },
             {
                 category: ["Structure", "구조", "Struktur"],
                 description: ["CSD(CCDC), Pymol", "CSD(CCDC), Pymol","CSD(CCDC), Pymol",],
                 tag: ["computer_science"],
             },
+            // {
+            //     category: ["Biology", "생물학", "Biologie"],
+            //     description: ["Transfection/Transduction, Cell Culture, (RT/Q)PCR, Immunoprecipitation, Fluorescence Microscopy", "Transfection, Mammalian Cell Culture, Virus Production, (RT/Q)PCR, Immunoprecipitation, Fluorescence Microscopy","Transfection, Mammalian Cell Culture, Virus Production, (RT/Q)PCR, Immunoprecipitation, Fluorescence Microscopy",],
+            //     tag: ["computer_science"],
+            // },
             {
                 category: ["Prototyping", "프로토타이핑", "Prototyping"],
                 description: ["Figma", "Figma","Figma",],
