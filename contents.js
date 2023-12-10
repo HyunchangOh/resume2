@@ -748,23 +748,8 @@ let contents = [
                 tag: ["computer_science"],
             },
             {
-                category: ["Bioinformatics", "생물정보학", "Bioinformatik"],
-                description: ["OMIM, Phenomizer, SpliceAI, JalView, UniProt, ClustalW,MutationTaster, ClinVar, GnomAD", "OMIM, Phenomizer, SpliceAI, JalView, UniProt, ClustalW, Pymol, MutationTaster, ClinVar, GnomAD","OMIM, Phenomizer, SpliceAI, JalView, UniProt, ClustalW, Pymol, MutationTaster, ClinVar, GnomAD",],
-                tag: ["computer_science"],
-            },
-            {
                 category: ["Structure", "구조", "Struktur"],
                 description: ["CSD(CCDC), Pymol", "CSD(CCDC), Pymol","CSD(CCDC), Pymol",],
-                tag: ["computer_science"],
-            },
-            {
-                category: ["Biology", "생물학", "Biologie"],
-                description: ["Transfection/Transduction, Cell Culture, (RT/Q)PCR, Immunoprecipitation, Fluorescence Microscopy", "Transfection, Mammalian Cell Culture, Virus Production, (RT/Q)PCR, Immunoprecipitation, Fluorescence Microscopy","Transfection, Mammalian Cell Culture, Virus Production, (RT/Q)PCR, Immunoprecipitation, Fluorescence Microscopy",],
-                tag: ["computer_science"],
-            },
-            {
-                category: ["Chemistry", "화학", "Chemie"],
-                description: ["IR, MS, NMR, MOF Synthesis", "IR, MS, NMR, MOF Synthesis","IR, MS, NMR, MOF Synthesis"],
                 tag: ["computer_science"],
             },
             {
