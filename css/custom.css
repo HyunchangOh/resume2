@@ -12,6 +12,11 @@ img{
     float:right;
 }
 
+.smaller_link{
+    margin-left: 5px;
+    font-size:0.7em;
+}
+
 
 .subtitle{
     margin-top: 10px;

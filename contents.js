@@ -143,6 +143,15 @@ let contents = [
         type: "multilined",
         items: [
             {
+                job: ["Free University of Berlin", "베를린자유대학교","Freie Universität Berlin"],
+                link: "https://www.ringleplus.com/ko/student/landing/home",
+                description: ["Artificial Intelligence and Machine Learning Group", "인공지능 및 머신러닝 연구단", "Artificial Intelligence and Machine Learning Group"],
+                items: [["ENKIS Student Intern: Establishment of sustainable AI-related study programs for responsible artificial intelligence","단어 학습 모듈 개발 및 서버 구현","ENKIS Studentmitarbeiter: Etablierung nachhaltiger KI-bezogener Studienangebote für eine verantwortungsvolle Künstliche Intelligenz an der Freien Universität Berlin"]],
+                where: ["Berlin, Germany", "독일 베를린", "Berlin, Deutschland"],
+                when: ["Jan. 2023 - Dec. 2024", "2021년 1월 - 2021년 2월", "Jan. 2021 - Feb. 2021"],
+                tag: ["computer_science"],
+            },
+            {
                 job: ["Ringle English Education Service", "(주)링글잉글리시에듀케이션서비스","Ringle English Education Service"],
                 link: "https://www.ringleplus.com/ko/student/landing/home",
                 description: ["Personalized Online English Education", "일대일 맞춤형 화상영어", "Personalisierte Online-Englischunterricht"],
@@ -199,7 +208,7 @@ let contents = [
         ],
     },
     {
-        title: ["Work Experience", "경력", "Berufserfahrung"],
+        title: ["Non-Research Work Experience", "비연구 직무경력", "Berufserfahrung außerhalb der Forchung"],
         type: "multilined",
         items: [
             {
@@ -216,6 +225,11 @@ let contents = [
                         "Brigade Commander's Commendation: Distinguished Service for Security Audit, 6th Corp",
                         "여단장 표창: 보안감사 우수",
                         "Belobigung des Brigadekommandanten: Ausgezeichneter Dienst für Sicherheitsaudit, 6. Corp"
+                    ],
+                    [
+                        "Informatics Squad: In-Station and On-field Server Establishment and Maintanence / In-Station IT Support",
+                        "전산분대: 주둔지 및 야전 서버 설치 및 운용 / 주둔지 IT 지원",
+                        "Informatiksgruppe: Einrichtung und Wartung von Servern in der Station und vor Ort"
                     ]
                 ],
                 where: ["Yeoncheon, S.Korea", "대한민국 연천", "Yeoncheon, SüdKorea"],
@@ -521,7 +535,7 @@ let contents = [
                 link: "",
                 description: [
                     "Founding Member and Seminar Presenter of KAIST Prototyping Society", 
-                    "카이스트 프로토타이핑 동아리 창립 멤버 및 세미나 발표자",
+                    "카이스트 프로f토타이핑 동아리 창립 멤버 및 세미나 발표자",
                     "Gründungsmitglied und Seminarleiter der KAIST Prototyping Society"
                 ],
                 items: [],
@@ -666,85 +680,8 @@ let contents = [
         bigmargin:true,
     },
     {
-        title: ["Selected Projects", "개인 프로젝트", "Ausgewählte Projekte"],
-        type: "threecolumns",
-        items: [
-            {
-                year: "2022",
-                name: ["medical-market-finder", "medical-market-finder","medical-market-finder"],
-                description: ["A Blockchain-based Web App that Finds the Best Market for a Given Product Group in the Medical Industry. Awarded by President of Korea Health Industry Development Institute", "블록체인 기반 의료기기 시장 탐색 플랫폼 (KHIDI)", "Eine Blockchain-basierte Web-App, die den besten Markt für eine bestimmte Produktgruppe in der Medizinbranche findet. Verliehen vom Präsidenten des Korea Health Industry Development Institute"],
-                github: "https://github.com/sleepy-juan/medical-market-finder",
-                where: [],
-                tag: ["computer_science"],
-            },
-            {
-                year: "2020",
-                name: ["Georeum", "거름", "Georeum"],
-                description: ["Automated selection of test cases with emphasis on amended fragments", "수정된 부분에 집중하는 테스트케이스 자동 생성 프로그램", "Automatisierte Auswahl von Testfällen mit Schwerpunkt auf geänderten Fragmenten"],
-                github: "https://github.com/limebell/GEOREUM",
-                where: [],
-                tag: ["computer_science"],
-            },
-            {
-                year: "2019",
-                name: ["Travelling Salesman Problem Solver", "Travelling Salesman Problem 답안 생성기", "Problemlöser für das Problem des Handlungsreisenden"],
-                description: ["introduces nobel search-based algorithms", "탐색기반 알고리즘 기반 프로그램", "Vorstellt neue suchbasierte Algorithmen"],
-                github: "https://github.com/HyunchangOh/Travelling-Salesman-Problem",
-                where: [],
-                tag: ["computer_science"],
-            },
-            {
-                year: "2019",
-                name: ["Testing False Positive Speech Recognition Using Evolutionary Algorithms", "유전자 알고리즘을 통한 거짓 양성 음성 데이터 생성 및 실험", "Testen der falsch positiven Spracherkennung mit evolutionären Algorithmen"],
-                description: ["and human-in-the-loop interaction", "휴먼-인-더-루프 상호작용을 사용합니다", "mit Human-in-the-Loop-Interaktion"],
-                github: "https://github.com/sleepy-juan/false-positive-speech-data",
-                where: [],
-                tag: ["computer_science"],
-            },
-            {
-                year: "2019",
-                name: ["re-Cruit", "re-Cruit","re-Cruit"],
-                description: ["History-Specified Job Hunting Platform for Students with Web Database", "학생을 위한 이력 반영되는 취업 시스템", "Geschichtsspezifische Jobsuche-Plattform für Studenten mit Webdatenbank"],
-                github: "https://github.com/sleepy-juan/re-Cruit",
-                where: [],
-                tag: ["computer_science"],
-            },
-            {
-                year: "2019",
-                name: ["PoZangZee", "PoZangZee", "PoZangZee"],
-                description: ["HCI Project to develop Email System for Expert Users", "전문가를 위한 이메일 시스템 개발", "HCI-Projekt zur Entwicklung eines E-Mail-Systems für erfahrene Benutzer"],
-                github: "https://github.com/sleepy-juan/PoZangZee",
-                where: [],
-                tag: ["computer_science"],
-            },
-            {
-                year: "2016",
-                name: ["Microbial Fuel Cell on Lignin", "리그닌을 활용한 미생물연료전지", "Mikrobielle Brennstoffzelle auf Lignin"],
-                description: ["Advisor: Prof. Heechul Woo, Pukyong N'tl Univ", "지도: 우희철 교수님, 부경대학교", "Berater: Advisor: Prof. Dr. Heechul Woo, Pukyong N'tl Univ"],
-                where: ["Busan, S.Korea", "대한민국 부산", "Busan, Südorea"],
-                smallwhere:true,
-                tag: ["biology","chemistry"],
-            },
-            {
-                year: "2016",
-                name: ["Microbial Desalination Cell Optimized for Local Waters", "지역 해수에 맞춘 미생물담수화전지 개발", "Mikrobielle Entsalzungszelle, optimiert für lokale Gewässer"],
-                description: ["Advisor: Dr. Mansuk Cheon, Korea Science Academy", "지도: 천만석 선생님, 한국과학영재학교", "Berater: Dr. Mansuk Cheon, Korea Science Academy"],
-                where: ["Singapore", "싱가포르", "Singapur"],
-                smallwhere: true,
-                tag: ["biology","chemistry","international"],
-            },
-            {
-                year: "2016",
-                name: ["Organic Sensors for Metal Ions", "금속 이온 탐지 유기 센서 개발", "Organische Sensoren für Metallionen"],
-                description: ["Advisor: Dr. Jinho Oh, Korea Science Academy", "지도: 오진호 선생님, 한국과학영재학교", "Berater: Dr. Jinho Oh, Korea Science Academy"],
-                where: ["Moscow, Russia", "러시아 모스크바", "Moskau, Russland"],
-                smallwhere: true,
-                tag: ["chemistry","international"],
-            },
-        ],
-    },
-    {
         title: ["Languages", "자연어", "Sprachen"],
+        link: "https://www.duolingo.com/profile/Hyunchang3",
         type: "twocolumns",
         items: [
             {
@@ -779,27 +716,55 @@ let contents = [
                 ],
                 tag: ["international"],
             },
-
+            {
+                category: ["Spanish", "스페인어", "Spanisch"],
+                description: [
+                    "Beginner (CEFR A1)",
+                    "초급 (CEFR A1)",
+                    "Anfänger (CEFR A1)"
+                ],
+                tag: ["international"],
+            },
 
         ],
     },
     {
-        title: ["Programming Skills", "프로그래밍 기술", "Programmieren"],
+        title: ["Skills", "기술", "Fähigkeiten"],
         type: "twocolumns",
         items: [
             {
                 category: ["Languages", "프로그래밍 언어", "Sprachen"],
-                description: ["Python, Javascript, C/C++, Java, R, HTML/CSS", "Python, Javascript, C, Java, R, HTML/CSS","Python, Javascript, C/C++, Java, R, HTML/CSS",],
+                description: ["Python, C/C++, Java, HTML/CSS/JS,  Scip/Zimpl, UNIX/Linux commands, LaTeX", "Python, R, Javascript, C, Java, HTML/CSS, Scip/Zimpl, UNIX/Linux commands, LaTeX","Python, R, Javascript, C/C++, Java, HTML/CSS, Scip/Zimpl, UNIX/Linux commands, LaTeX",],
                 tag: ["computer_science"],
             },
             {
-                category: ["Database", "데이터베이스", "Datenbank"],
-                description: ["MySQL, Firebase, MongoDB", "MySQL, Firebase, MongoDB","MySQL, Firebase, MongoDB",],
+                category: ["SQL/DBMS", "SQL/DBMS", "SSQL/DBMS"],
+                description: ["MySQL, Firebase, MongoDB, PySpark", "MySQL, Firebase, MongoDB, PySpark","MySQL, Firebase, MongoDB, PySpark",],
                 tag: ["computer_science"],
             },
             {
                 category: ["Frameworks", "프레임워크", "Frameworks"],
-                description: ["ReactJS, Flask", "ReactJS, Flask","ReactJS, Flask",],
+                description: ["ReactJS, Flask, AndroidStudio", "ReactJS, Flask, AndroidStudio","ReactJS, Flask, AndroidStudio",],
+                tag: ["computer_science"],
+            },
+            {
+                category: ["Bioinformatics", "생물정보학", "Bioinformatik"],
+                description: ["OMIM, Phenomizer, SpliceAI, JalView, UniProt, ClustalW,MutationTaster, ClinVar, GnomAD", "OMIM, Phenomizer, SpliceAI, JalView, UniProt, ClustalW, Pymol, MutationTaster, ClinVar, GnomAD","OMIM, Phenomizer, SpliceAI, JalView, UniProt, ClustalW, Pymol, MutationTaster, ClinVar, GnomAD",],
+                tag: ["computer_science"],
+            },
+            {
+                category: ["Structure", "구조", "Struktur"],
+                description: ["CSD(CCDC), Pymol", "CSD(CCDC), Pymol","CSD(CCDC), Pymol",],
+                tag: ["computer_science"],
+            },
+            {
+                category: ["Biology", "생물학", "Biologie"],
+                description: ["Transfection/Transduction, Cell Culture, (RT/Q)PCR, Immunoprecipitation, Fluorescence Microscopy", "Transfection, Mammalian Cell Culture, Virus Production, (RT/Q)PCR, Immunoprecipitation, Fluorescence Microscopy","Transfection, Mammalian Cell Culture, Virus Production, (RT/Q)PCR, Immunoprecipitation, Fluorescence Microscopy",],
+                tag: ["computer_science"],
+            },
+            {
+                category: ["Chemistry", "화학", "Chemie"],
+                description: ["IR, MS, NMR, MOF Synthesis", "IR, MS, NMR, MOF Synthesis","IR, MS, NMR, MOF Synthesis"],
                 tag: ["computer_science"],
             },
             {
@@ -810,7 +775,7 @@ let contents = [
         ],
     },
 ];
-let lastUpdateTime = ["Last Updated: Aug 05, 2023", "2023년 8월 5일에 마지막으로 수정되었습니다.", "Letzte Aktualisierung: 05.08.2023"];
+let lastUpdateTime = ["Last Updated: Dec 10, 2023", "2023년 12월 10일에 마지막으로 수정되었습니다.", "Letzte Aktualisierung: 10.12.2023"];
 
 // 0: korean
 // 1: english
@@ -1008,7 +973,18 @@ function overwrite(language, keepTags) {
         let h5 = document.createElement("h5");
         h5.appendChild(document.createTextNode(content.title[language]));
         container.appendChild(h5);
+        if(content.link){
+            let a = document.createElement("a");
+            a.setAttribute("href", content.link);
 
+            let i = document.createElement("i");
+            i.classList.add("fa");
+            i.classList.add("fa-link");
+            a.classList.add("smaller_link")
+
+            a.appendChild(i);
+            h5.appendChild(a);
+        };
         if (content.type === "multilined") {
             content.items.forEach((item) => {
                 if (!item.tag) {
