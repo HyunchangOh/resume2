@@ -747,6 +747,7 @@ let contents = [
         items: [
             {
                 category: ["Languages", "프로그래밍 언어", "Sprachen"],
+                link:"https://leetcode.com/ohyunchang/",
                 description: ["Python, C/C++, Java, HTML/CSS/JS,  Scip/Zimpl, UNIX/Linux commands, LaTeX", "Python, R, Javascript, C, Java, HTML/CSS, Scip/Zimpl, UNIX/Linux commands, LaTeX","Python, R, Javascript, C/C++, Java, HTML/CSS, Scip/Zimpl, UNIX/Linux commands, LaTeX",],
                 tag: ["computer_science"],
             },
@@ -1179,9 +1180,20 @@ function overwrite(language, keepTags) {
                 twocolumns.classList.add("two");
                 twocolumns.classList.add("columns");
                 twocolumns.classList.add("name");
+
+
+
                 if (item.category[language].trim() === "") twocolumns.innerHTML = "&nbsp;";
                 else twocolumns.appendChild(document.createTextNode(item.category[language]));
-
+                if(item.link){
+                    let a = document.createElement("a");
+                    a.setAttribute("href", item.link);
+                    let i = document.createElement("i");
+                    i.classList.add("fa");
+                    i.classList.add("fa-link");
+                    a.appendChild(i);
+                    twocolumns.appendChild(a);
+                }
                 let tencolumns = document.createElement("div");
                 tencolumns.classList.add("ten");
                 tencolumns.classList.add("columns");
