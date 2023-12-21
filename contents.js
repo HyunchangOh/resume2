@@ -212,6 +212,21 @@ let contents = [
         type: "multilined",
         items: [
             {
+                job: ["Free University of Berlin IT-Support Team", "베를린 자유대학교 전산팀", "IT-Support Team, ZEDAT an der Freien Uni Berlin"],
+                link: "https://www.zedat.fu-berlin.de/Home",
+                description: ["Employee, IT-Support Team", "IT 지원팀 학생직원", "Studentischer Mitarbeiter, IT-Support Team"],
+                items: [
+                    [
+                        "User Support for On-Campus Network and various electronic devices",
+                        "캠퍼스 네트워크 및 기타 전산장비 사용자 지원",
+                        "IT-Support fürs Netzwerk und für verschiedene elektronische Geräte auf Campus"
+                    ],
+                ],
+                where: ["Berlin, Germany", "독일 베를린", "Berlin, Deutschland"],
+                when: ["Feb. 2023 -", "2023년 2월 - ","Feb. 2023 -"],
+                tag: ["leadership"],
+            },
+            {
                 job: ["Republic of Korea Army", "대한민국 육군", "Koreanische Armee"],
                 link: "https://www.army.mil.kr/webapp/user/indexMain.do?siteId=english",
                 description: ["Signal Company, 35th Brigade, 5th Infatry Division", "제5보병사단 제35보병여단 통신중대", "Signalkompanie, 35. Brigade, 5. Infanteriedivision"],
