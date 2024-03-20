@@ -202,7 +202,7 @@ let contents = [
                 description: ["Dr. Kiyoub Park, Dept. of Chemistry and Biology, KSA of KAIST", "박기엽 선생님, 한국과학영재학교 화학생물학부", "Dr. Kiyoub Park, Dept. of Chemistry and Biology, KSA of KAIST"],
                 items: [["Research Student: On the Effects of Reactive Oxygen Species in Differentiation of Neural Cells", "연구인턴: 신경줄기세포의 분화과정에서 활성산소종의 역할", "Forschungsstudent: Über die Auswirkungen reaktiver Sauerstoffspezies auf die Differenzierung neuraler Zellen"]],
                 where: ["Busan, S.Korea", "대한민국 부산", "Busan, Südkorea"],
-                when: ["Mar. 2016 - Jan. 2017", "2016년 3월 - 2017년 1월", "Mar. 2016 - Jan. 2017"],
+                when: ["Mar. 2016 - Jan. 2017", "2016년 3월 - 2017년 1월", "Mrz. 2016 - Jan. 2017"],
                 tag: ["biology"],
             },
         ],
@@ -212,7 +212,7 @@ let contents = [
         type: "multilined",
         items: [
             {
-                job: ["Free University of Berlin IT-Support Team", "베를린 자유대학교 전산팀", "IT-Support Team, ZEDAT an der Freien Uni Berlin"],
+                job: ["Free University of Berlin IT-Support Team", "베를린 자유대학교 전산팀", "IT-Support Team, FUB-IT an der Freien Uni Berlin"],
                 link: "https://www.zedat.fu-berlin.de/Home",
                 description: ["Employee, IT-Support Team", "IT 지원팀 학생직원", "Studentischer Mitarbeiter, IT-Support Team"],
                 items: [
@@ -223,7 +223,7 @@ let contents = [
                     ],
                 ],
                 where: ["Berlin, Germany", "독일 베를린", "Berlin, Deutschland"],
-                when: ["Feb. 2023 -", "2023년 2월 - ","Feb. 2023 -"],
+                when: ["Mar. 2023 -", "2023년 3월 - ","Mrz. 2023 -"],
                 tag: ["leadership"],
             },
             {
