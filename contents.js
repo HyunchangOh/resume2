@@ -859,12 +859,7 @@ function overwrite(language, keepTags) {
     p.appendChild(document.createTextNode(" | "));
     p.appendChild(github);
     p.appendChild(aa);
-    p.appendChild(document.createTextNode(" | "));
-    p.appendChild(blogIcon);
-    p.appendChild(blog);
-    p.appendChild(document.createTextNode(" | "));
-    p.appendChild(instaIcon);
-    p.appendChild(insta);
+
     container.appendChild(h1);
     container.appendChild(photo);
     container.appendChild(p);
