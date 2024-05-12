@@ -1,13 +1,13 @@
 let UIs = {
-    name: ["Hans O", "오현창", "Hans O"],
+    name: ["Hyunchang Oh (Hans)", "오현창", "Hyunchang Oh (Hans)"],
     mobile: "(+49) 152 3130 2240",
     mail: "ohyunchang@gmail.com",
     githubLink: "https://github.com/HyunchangOh/",
     githubId: "HyunchangOh",
     resumeLink: "https://drive.google.com/uc?export=download&id=1OfFs6VxZgg3V8Al8C01TAd8JrAShBV-c",
-    blogLink: "https://hansmitkunst.tistory.com/",
     instagramId: "hyunchang.oh",
     instagramLink: "https://www.instagram.com/hyunchang.oh/",
+    address: "Nr.4620 4.Etage, Ostendstraße 19, 12459 Berlin",
     button: ["Download Résumé", "이력서 다운로드 (영문)", "Resume Herunterladen (Englisch)"],
     language: ["한국어", "English", "Deutsch"],
     filter: ["Filter", "필터", "Filter"],
@@ -143,12 +143,21 @@ let contents = [
         type: "multilined",
         items: [
             {
+                job: ["Robert Koch Institute", "로베르트 코흐 연구소","Robert-Koch Institut"],
+                link: "https://www.mi.fu-berlin.de/en/math/groups/ag-madasc/Einfuehrung/index.html",
+                description: ["Mathematics for Data Science", "Mathematics for Data Science", "Mathematics for Data Science"],
+                items: [["Student Researcher","연구학생","Studentische Hilfskraft"]],
+                where: ["Berlin, Germany", "독일 베를린", "Berlin, Deutschland"],
+                when: ["May. 2024 (Planned) - ", "2024년 5월 (계약 대기중) - ", "May. 2024 (Geplannt) - "],
+                tag: ["computer_science"],
+            },
+            {
                 job: ["Free University of Berlin", "베를린자유대학교","Freie Universität Berlin"],
                 link: "https://www.mi.fu-berlin.de/en/inf/groups/ag-KIML/Projects/ENKIS/index.html",
                 description: ["Artificial Intelligence and Machine Learning Group", "인공지능 및 머신러닝 연구단", "Artificial Intelligence and Machine Learning Group"],
                 items: [["ENKIS Student Intern: Establishment of sustainable AI-related study programs for responsible artificial intelligence","단어 학습 모듈 개발 및 서버 구현","ENKIS Studentmitarbeiter: Etablierung nachhaltiger KI-bezogener Studienangebote für eine verantwortungsvolle Künstliche Intelligenz an der Freien Universität Berlin"]],
                 where: ["Berlin, Germany", "독일 베를린", "Berlin, Deutschland"],
-                when: ["Jan. 2023 - Dec. 2024", "2023년 1월 - 2024년 12월", "Jan. 2023 - Dec. 2024"],
+                when: ["Jan. 2023 - Dec. 2025", "2023년 1월 - 2025년 12월", "Jan. 2023 - Dec. 2025"],
                 tag: ["computer_science"],
             },
             {
@@ -223,8 +232,8 @@ let contents = [
                     ],
                 ],
                 where: ["Berlin, Germany", "독일 베를린", "Berlin, Deutschland"],
-                when: ["Mar. 2023 -", "2023년 3월 - ","Mrz. 2023 -"],
-                tag: ["leadership"],
+                when: ["Mar. 2024 -", "2024년 3월 - ","Mrz. 2024 -"],
+                tag: ["computer_science"],
             },
             {
                 job: ["Republic of Korea Army", "대한민국 육군", "Koreanische Armee"],
@@ -834,6 +843,7 @@ function overwrite(language, keepTags) {
     aa.setAttribute("href", UIs.githubLink);
     aa.appendChild(document.createTextNode(" " + UIs.githubId));
 
+
     let blogIcon = document.createElement("i");
     blogIcon.classList.add("fa");
     blogIcon.classList.add("fa-book");
@@ -859,6 +869,8 @@ function overwrite(language, keepTags) {
     p.appendChild(document.createTextNode(" | "));
     p.appendChild(github);
     p.appendChild(aa);
+    let address = document.createTextNode(" | "+UIs.address);
+    p.appendChild(address);
 
     container.appendChild(h1);
     container.appendChild(photo);
