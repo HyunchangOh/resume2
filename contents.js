@@ -143,12 +143,21 @@ let contents = [
         type: "multilined",
         items: [
             {
+                job: ["Botanischer Garten Berlin", "로베르트 코흐 연구소","Botanischer Garten Berlin"],
+                link: "https://www.mi.fu-berlin.de/en/math/groups/ag-madasc/Einfuehrung/index.html",
+                description: ["Mathematics for Data Science", "Mathematics for Data Science", "Bioinformatik SHK"],
+                items: [["Student Researcher","연구학생","Studentische Hilfskraft"]],
+                where: ["Berlin, Germany", "독일 베를린", "Berlin, Deutschland"],
+                when: ["Aug. 2024 - ", "2024년 5월 (계약 대기중) - ", "Aug. 2024 - "],
+                tag: ["computer_science"],
+            },
+            {
                 job: ["Robert Koch Institute", "로베르트 코흐 연구소","Robert-Koch Institut"],
                 link: "https://www.mi.fu-berlin.de/en/math/groups/ag-madasc/Einfuehrung/index.html",
                 description: ["Mathematics for Data Science", "Mathematics for Data Science", "Mathematics for Data Science"],
                 items: [["Student Researcher","연구학생","Studentische Hilfskraft"]],
                 where: ["Berlin, Germany", "독일 베를린", "Berlin, Deutschland"],
-                when: ["May. 2024 (Planned) - ", "2024년 5월 (계약 대기중) - ", "May. 2024 (Geplannt) - "],
+                when: ["Jul. 2024 - ", "2024년 5월 (계약 대기중) - ", "Jul. 2024 - "],
                 tag: ["computer_science"],
             },
             {
