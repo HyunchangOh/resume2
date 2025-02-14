@@ -143,12 +143,21 @@ let contents = [
         type: "multilined",
         items: [
             {
-                job: ["Botanischer Garten Berlin", "로베르트 코흐 연구소","Botanischer Garten Berlin"],
-                link: "https://www.mi.fu-berlin.de/en/math/groups/ag-madasc/Einfuehrung/index.html",
-                description: ["Mathematics for Data Science", "Mathematics for Data Science", "Bioinformatik SHK"],
+                job: ["Max Planck Institute", "막스 플랑크 연구소","Max-Planck-Institut für molekulare Genetik"],
+                link: "https://www.molgen.mpg.de/IMPRS",
+                description: ["Project on Enhancers", "인핸서 관련 연구", "Forschungsprojekt für Enhancer"],
+                items: [["Research Intern","연구인턴","Research Intern"]],
+                where: ["Berlin, Germany", "독일 베를린", "Berlin, Deutschland"],
+                when: ["Jan. 2025 - ", "2025년 1월 - ", "Jan. 2025 - "],
+                tag: ["computer_science"],
+            },
+            {
+                job: ["Botanischer Garten Berlin", "베를린 식물원","Botanischer Garten Berlin"],
+                link: "https://www.bgbm.org/de",
+                description: ["Plants Research Group", "식물연구그룹", "Forschungsgruppe Pflanzen"],
                 items: [["Student Researcher","연구학생","Studentische Hilfskraft"]],
                 where: ["Berlin, Germany", "독일 베를린", "Berlin, Deutschland"],
-                when: ["Aug. 2024 - ", "2024년 5월 (계약 대기중) - ", "Aug. 2024 - "],
+                when: ["Jul. 2024 - ", "2024년 7월 - ", "Jul. 2024 - "],
                 tag: ["computer_science"],
             },
             {
